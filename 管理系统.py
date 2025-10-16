@@ -333,48 +333,7 @@ class VaccineManager:
         tk.Button(add_win, text="添加", bg='white', font=("Arial", 9), width=9, command=add).place(x=400, y=360)
         tk.Button(add_win, text="清空", bg='white', font=("Arial", 9), width=9, command=clear).place(x=160, y=360)
 
-    # 其他功能方法...
-    def add_vaccine_distr_info(self):
-        # 保持不变...
-        pass
-
-    def add_vaccine_maintenance_info(self):
-        # 保持不变...
-        pass
-
-    def add_vaccination_person_info(self):
-        # 保持不变...
-        pass
-
-    def vaccine_info_query(self):
-        # 保持不变...
-        pass
-
-    def vaccine_distr_info_query(self):
-        # 保持不变...
-        pass
-
-    def vaccination_maintenance_info_query(self):
-        # 保持不变...
-        pass
-
-    def vaccination_person_info_query(self):
-        # 保持不变...
-        pass
-
-    def create_query_window(self, title, table_name, query_field, columns):
-        # 保持不变...
-        pass
-
-    def modify_vaccine_info(self):
-        # 保持不变...
-        pass
-
-    def del_vaccine_info(self):
-        # 保持不变...
-        pass
-
-
 if __name__ == "__main__":
     app = VaccineManager()
+
 
